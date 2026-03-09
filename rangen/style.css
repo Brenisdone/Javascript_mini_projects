@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+}
+
+
+.Label{
+    padding:15px;
+    margin: 5px;
+    border: 5px solid hsl(200, 69%, 54%);
+    background-color: hsl(200, 76%, 38%);
+    font-family:'Times New Roman';
+    font-size: 5em;
+}
+
+#LabelContainer{
+    margin-top: 10px;
+    padding: 15px;
+}
+
+#btn{
+    color: hsl(16, 100%, 31%);
+    background-color: hsl(16, 99%, 63%);
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-family: 'Courier New';
+    cursor: pointer;
+    transition: background-color 0.25s
+}
+
+#btn:hover{
+    background-color: hsl(16, 100%, 69%);
+}
+
+#dicebox{ 
+    border-top: 5px solid hsla(241, 52%, 48%, 0.999);
+    border-bottom: 5px solid hsla(241, 52%, 48%, 0.999);
+    background-color: hsla(241, 32%, 50%, 0.999);
+    padding-bottom: 25px;
+}
+
+#Guessbox{
+    border-top: 5px solid hsl(60, 62%, 54%);
+    background-color: hsl(60, 85%, 52%);
+    border-top: 5px solid hsl(60, 62%, 54%);
+}

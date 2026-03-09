@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Generator</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+    <div id="dicebox">
+    <h1>Three dices</h1>
+    <div id="LabelContainer">
+        <label id="Label" class="Label">0</label>
+        <label id="Label1" class="Label">0</label>
+        <label id="Label2" class="Label">0</label>
+    </div><br>
+    <button id="btn">Generate!</button>
+    </div>
+
+    <div id="Guessbox">
+        <h1>Guessing game</h1><br>
+        <div id="GuessContent">
+            <label for="Max" class="">Choose Max Number:</label>
+            <input type="text" id="Max">
+            <br><br>
+
+            <label for="Min">Choose Min Number:</label>
+            <input type="text" id="Min">
+            <br><br>
+            
+            <button id="Guessset">Set</button>
+            <p id="setstatus"></p>
+            <br>
+
+            <label for="Guess">Guess the number: </label>
+            <input type="text" id="Guess">
+            <br><br>
+
+            <button id="Guessstart">Sumbit</button><br><br>
+
+            <h3 id="Guessstatus"></h3>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
